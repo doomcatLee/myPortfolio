@@ -1,0 +1,13 @@
+img{
+  width: 250px;
+  border-radius: 20px;
+}
+
+
+li{
+  list-style: none;
+}
+
+.row{
+  margin: 5px 15px;
+}
