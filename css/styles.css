@@ -1,3 +1,10 @@
+/* Question for Perry: What are some of the best practices for
+    making your css code organized and clean? Throughout this project,
+    I noticed myself that I am individually changing bits of css to change
+    little things here and there which makes me wonder that working in a
+    larger css must be a hassle.
+*/
+
 body{
   font-family: 'Source Sans Pro', serif;
   background-image: url("../img/lil_sky_island_by_erny2.jpg");
@@ -37,7 +44,12 @@ strong{
   font-size: 5em;
 }
 
-.jumbotron h2, p{
+.jumbotron h2{
+  font-family: 'Arima Madurai', serif;
+  font-weight: 600;
+}
+
+.jumbotron p{
   font-family: 'Arima Madurai', serif;
 }
 
@@ -103,4 +115,9 @@ li{
 
 .panel-warning{
   margin-right: -15px;
+}
+
+span.unagi{
+  color: red;
+  font-weight: 600;
 }
