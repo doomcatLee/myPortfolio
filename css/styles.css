@@ -1,5 +1,8 @@
 body{
   font-family: 'Source Sans Pro', serif;
+  background-image: url("../img/lil_sky_island_by_erny2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .img-thumbnail{
@@ -9,13 +12,12 @@ body{
   padding: 4px;
   line-height: 1.42857143;
   background-color: #fff;
-  border: 10px solid #000;
-  border-radius: 4px;
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
   float:left;
   margin-right: 25px;
+  margin-top: 15px;
 }
 
 .jumbotron{
@@ -24,7 +26,14 @@ body{
 }
 
 .jumbotron h1{
-  font-family: 'Source Sans Pro', cursive;
+  font-family: 'Shrikhand', serif;
+  font-weight: 600;
+  font-size: 5em;
+  margin-top:
+}
+
+.jumbotron h2, p{
+  font-family: 'Arima Madurai', ser
 }
 
 h1.background{
@@ -65,6 +74,10 @@ li{
 .list-group#hobby{
   font-size: 1.5em;
   text-align: center;
+}
+.list-group.projects a{
+  font-weight: 600;
+  font-size: 1.7em;
 }
 
 .panel-success{
