@@ -1,16 +1,23 @@
 # Portfolio Website
 
-Alex Lee's portfolio website available for view [here](https://github.com/doomcatlee/myportfolio)
+Alex Lee's portfolio website available for view [here](https://doomcatlee.github.io/myPortfolio)
 
-## Cloning this repository:
+## Navigating/Cloning this repository:
+**1. Open Terminal**
 
 ```
 cd ~/desktop
 ```
-
 ```
 git clone https://github.com/doomcatlee/myportfolio
 ```
+```
+cd myportfolio
+```
+```
+open index.html
+```
+
 
 ## Built With
 * HTML5
